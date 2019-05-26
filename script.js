@@ -19,8 +19,9 @@ list.split("#").forEach(function(g){
 console.log(count.indexOf(Math.max(...count)));
 
 //encryption pass was added to the ascii value, so we need to find the difference of the 'theoretical' encrypted space and the ascii space which will be our password
-console.log("Password = " + parseInt(783 - ' '.charCodeAt(0)))
-Decrypt
+var password = parseInt(SpaceIndex - ' '.charCodeAt(0));
+console.log("Password = " + password)
+
 
 var secret = '';
 //decrypt the message using the pass
@@ -29,5 +30,5 @@ list.split("#").forEach(function(g){
   (g.split(".").slice(1,4)).forEach(function(e){
    sum += parseInt(e); 
   })
-	 secret += ''+ String.fromCharCode(parseInt(sum - 751));
+  secret += ''+ String.fromCharCode(parseInt(sum - password));
 });
