@@ -1,4 +1,4 @@
-#XECryption-JS
+# XECryption-JS
 
 Javascript script to decrypt text encrypted using XECryption algorithm<br><br>
 
